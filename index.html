@@ -1,81 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sidney Atkins | Web Developer</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidney Atkins | Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
-        <nav>
-            <span class="logo">Sidney Atkins</span>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <nav>
+    <div class="nav-logo">Sidney<span>.</span>Atkins</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-    <section id="hero">
-        <h1>Hi, I'm Sidney.</h1>
-        <p>Frontend & Full-Stack Web Developer based in Chicago.</p>
-        <a href="#projects" class="btn">See My Work</a>
-    </section>
+  <section id="hero">
+    <div class="hero-tag">Available for work · Chicago, IL</div>
+    <h1>Web Developer<br>& <em>Designer</em></h1>
+    <p class="hero-sub">CS grad from the University of Iowa building clean, accessible, and fast web experiences. Specializing in frontend development and CMS-backed architecture.</p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-primary">View Projects</a>
+      <a href="resume.pdf" class="btn-ghost" target="_blank">Download CV</a>
+    </div>
+  </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I'm a Computer Science graduate from the University of Iowa with a passion for building clean, accessible, and user-friendly websites. I specialize in HTML, CSS, JavaScript, and CMS platforms like Drupal and WordPress.</p>
-    </section>
+  <div class="marquee-wrap">
+    <div class="marquee">
+      <span class="lit">HTML5</span><span>·</span>
+      <span>CSS3</span><span>·</span>
+      <span class="lit">JavaScript</span><span>·</span>
+      <span>Drupal</span><span>·</span>
+      <span class="lit">WordPress</span><span>·</span>
+      <span>Accessibility</span><span>·</span>
+      <span class="lit">SEO</span><span>·</span>
+      <span>Git</span><span>·</span>
+      <span class="lit">Figma</span><span>·</span>
+      <span>Python</span><span>·</span>
+      <span class="lit">Responsive Design</span><span>·</span>
+      <span>UX/UI</span><span>·</span>
+      <span class="lit">HTML5</span><span>·</span>
+      <span>CSS3</span><span>·</span>
+      <span class="lit">JavaScript</span><span>·</span>
+      <span>Drupal</span><span>·</span>
+      <span class="lit">WordPress</span><span>·</span>
+      <span>Accessibility</span><span>·</span>
+      <span class="lit">SEO</span><span>·</span>
+      <span>Git</span><span>·</span>
+      <span class="lit">Figma</span><span>·</span>
+      <span>Python</span><span>·</span>
+      <span class="lit">Responsive Design</span><span>·</span>
+      <span>UX/UI</span><span>·</span>
+    </div>
+  </div>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <h3>Portfolio Website</h3>
-                <p>This site — built from scratch with HTML, CSS, and JavaScript.</p>
-                <a href="#">View Code</a>
-            </div>
-            <div class="project-card">
-                <h3>Water Bearer Collective</h3>
-                <p>Full production website with integrated payment processing for an independent arts collective.</p>
-                <a href="#">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>SPPA Site Redesign</h3>
-                <p>Led accessibility and SEO improvements for the University of Iowa Graduate College.</p>
-                <a href="#">View Project</a>
-            </div>
+  <section id="about">
+    <div class="section-label">About</div>
+    <p>I'm a Computer Science graduate from the University of Iowa with a minor in Japanese. I build clean, accessible, and user-friendly websites with a focus on frontend development and CMS platforms. Currently relocating to Chicago and open to frontend, full-stack, and web design roles.</p>
+  </section>
+
+  <section id="projects">
+    <div class="section-label">Projects</div>
+    <div class="project-grid">
+
+      <div class="project-card">
+        <div class="card-num">01</div>
+        <h3>Portfolio Website</h3>
+        <p>This site — built from scratch with HTML, CSS, and vanilla JavaScript. Deployed on GitHub Pages.</p>
+        <div class="card-tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">GitHub Pages</span>
         </div>
-    </section>
+        <a href="https://github.com/sidneytatkins/portfolio" class="card-link" target="_blank">View Code →</a>
+      </div>
 
-    <section id="experience">
-        <h2>Experience</h2>
-        <div class="job">
-            <h3>Web Designer & Migrator — University of Iowa Graduate College</h3>
-            <span>Feb 2025 – Present</span>
-            <p>Leading website redesigns and migrations for interdisciplinary clients, with a focus on accessibility and SEO.</p>
+      <div class="project-card">
+        <div class="card-num">02</div>
+        <h3>SPPA Site Redesign</h3>
+        <p>Accessibility and SEO overhaul for the University of Iowa Graduate College School of Planning & Public Affairs.</p>
+        <div class="card-tags">
+          <span class="tag">Drupal</span>
+          <span class="tag">SEO</span>
+          <span class="tag">Accessibility</span>
         </div>
-        <div class="job">
-            <h3>Freelance Web Developer — Water Bearer Collective</h3>
-            <span>Sep 2025 – Present</span>
-            <p>Designed and developed a full production website with payment processing and event management.</p>
-        </div>
-    </section>
+        <a href="#" class="card-link">View Project →</a>
+      </div>
 
-    <section id="contact">
-        <h2>Get In Touch</h2>
-        <p>I'm actively looking for web development roles in Chicago. Let's talk!</p>
-        <a href="mailto:sidneytatkins@gmail.com" class="btn">Email Me</a>
-    </section>
+    </div>
+  </section>
 
-    <footer>
-        <p>© 2026 Sidney Atkins · <a href="https://github.com/sidneytatkins">GitHub</a></p>
-    </footer>
+  <section id="experience">
+    <div class="section-label">Experience</div>
+    <div class="exp-list">
 
-    <script src="script.js"></script>
+      <div class="exp-item">
+        <h3>Web Designer & Migrator</h3>
+        <div class="exp-org">University of Iowa Graduate College</div>
+        <div class="exp-date">Feb 2025 – Present</div>
+        <p>Leading website redesigns and migrations for interdisciplinary clients, with a focus on accessibility, SEO, and client communication.</p>
+      </div>
+
+      <div class="exp-item">
+        <h3>Freelance Web Developer</h3>
+        <div class="exp-org">Independent Client</div>
+        <div class="exp-date">Sep – Nov 2025</div>
+        <p>Built a CMS website from scratch with integrated e-commerce and event management features.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-box">
+      <div>
+        <h2>Let's work together.</h2>
+        <p>Open to frontend, full-stack, and web design roles in Chicago.</p>
+      </div>
+      <a href="mailto:sidneytatkins@gmail.com" class="btn-primary">Get In Touch</a>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 Sidney Atkins</span>
+    <span><a href="https://github.com/sidneytatkins" target="_blank">GitHub</a></span>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
